@@ -359,6 +359,7 @@
     do {
         if ([current isKindOfClass:[UIViewController class]] && ![current isKindOfClass:[UINavigationController class]]) {
             viewController = current;
+            break;
         }
         current = [current nextResponder];
     } while (current != nil);
