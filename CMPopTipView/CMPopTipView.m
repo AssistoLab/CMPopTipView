@@ -695,7 +695,9 @@
 
 - (BOOL) gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
 {
-    [self dismissByUser];
+    if(![touch.view isKindOfClass:[UIButton class]]){
+        [self dismissByUser];
+    }
     return NO;
 }
 
