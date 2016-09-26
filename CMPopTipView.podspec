@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name     = 'CMPopTipView'
   s.version  = '2.2.4'
   s.license  = { :type => "MIT", :file => "LICENSE" }
-  s.author   = { "Chris Miles" => "http://chrismiles.info/" }
+  s.authors   = { "Chris Miles" => "http://chrismiles.info/" }
   s.summary  = 'Custom UIView for iOS that pops up an animated "bubble" pointing at a button or other view. Useful for popup tips.'
   s.homepage = 'https://github.com/vittoriom/CMPopTipView'
   s.source   = { :git => 'https://github.com/vittoriom/CMPopTipView.git', :tag => '2.2.4' }
